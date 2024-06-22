@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavenderblush;
+}
+h1 {
+    color:#E26D5A;
+    text-align: center;
+}
+form {
+    color:#E26D5A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+input[type=text] {
+    color: #E26D5A;
+  }
+  
+#taskinput {
+    border-radius: 5px;
+    border-color:#E26D5A;
+}
+
+#tasklist {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.task {
+    color:#E26D5A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #E26D5A;
+    
+}
+.task input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #E26D5A;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: #E26D5A;
+}
+
+#submitbutton {
+    color: #E26D5A;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+
+#submitbutton:hover {
+    text-decoration: underline;
+    color: #E26D5A;
+}
+
+.deletebutton {
+    color:#E26D5A;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 10px
+}
+
+.deletebutton:hover{
+    color: #E26D5A;
+    text-decoration: underline;
+}
+
+#taskinput::placeholder {
+    text-align: center;
+    color: #F0B2A8;
+}
